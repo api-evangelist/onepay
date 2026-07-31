@@ -1,8 +1,18 @@
 aid: onepay
 name: OnePay
-description: 'OnePay is a company surfaced as a portfolio company of ribbit-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  OnePay is a Walmart-backed financial technology company that delivers mobile
+  banking and money services through a single consumer app, with banking
+  provided by Coastal Community Bank or Lead Bank (Members FDIC). The app bundles
+  everyday checking and high-yield savings, a Credit Builder loan and credit
+  score monitoring, the OnePay CashRewards Mastercard credit card, buy-now-pay-later
+  (OnePay Later, powered by Klarna/WebBank), a digital wallet, commission-free
+  stock and ETF investing (cleared by DriveWealth), crypto buying (powered by
+  Zero Hash), free tax filing, global transfers (powered by MoneyGram), and cash
+  back tied to Walmart. Originally launched as ONE (One Finance), OnePay is
+  backed by Ribbit Capital and Walmart. It operates a gated developer/partner
+  surface at developer.onepay.com (currently access-controlled) rather than a
+  public API program.
 url: https://raw.githubusercontent.com/api-evangelist/onepay/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +20,31 @@ x-backed-by:
 - ribbit-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://images.ctfassets.net/e3a511gf6wvh/0ULSOJzwUX4jcd2a0YF7W/3795aa7f6aa92e00e7c91370a94a4ec5/Image.png?w=1200&fm=jpg&q=80
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Mobile Banking
+- Payments
+- Consumer Finance
+- Credit
+- Investing
+- Cryptocurrency
+- Walmart
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.onepay.com
+- type: DeveloperPortal
+  url: https://developer.onepay.com
+- type: Support
+  url: https://www.onepay.com/help-center
+- type: Blog
+  url: https://www.onepay.com/blog
+- type: TermsOfService
+  url: https://www.onepay.com/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.onepay.com/privacy
+- type: LLMsTxt
+  url: llms/onepay-llms.txt
+- type: DomainSecurity
+  url: security/onepay-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
